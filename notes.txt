@@ -1,0 +1,9 @@
+z-antix-forensic is the forensic repository for the old Swift Linux.
+
+What packages should Swift Linux continue to provide?  
+
+What packages should Swift Linux stop providing?
+
+What additional packages should Swift Linux provide?
+
+Package lists for each of the other leading forensic/rescue live CDs provide would help.
