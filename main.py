@@ -30,7 +30,8 @@ else:
 print '=============================='
 print 'BEGIN ADDING FORENSIC PACKAGES'
 
-# os.system('apt-get install -y ???')
+os.system('apt-get install -y partimage photorec testdisk')
+os.system('apt-get install -y ddrescue')
 
 
 print 'FINISHED ADDING FORENSIC PACKAGES'
