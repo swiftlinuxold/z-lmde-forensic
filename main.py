@@ -30,10 +30,18 @@ else:
 print '=============================='
 print 'BEGIN ADDING FORENSIC PACKAGES'
 
-os.system('apt-get install -y partimage')
-os.system('apt-get install -y photorec')
-os.system('apt-get install -y testdisk')
-os.system('apt-get install -y ddrescue')
+def package_add (name):
+    os.system ('echo ADDING ' + name)
+    os.system ('apt-get install -y ' + name)
+
+# Carried over from antiX Linux
+package_add ('partimage testdisk')
+
+# Rescue (Search Synaptic for "rescue")
+package_add ('scrounge-ntfs dares ddrescue gddrescue magicrescue myrescue')
+
+
+
 
 
 print 'FINISHED ADDING FORENSIC PACKAGES'
