@@ -40,6 +40,18 @@ package_add ('partimage testdisk')
 # Rescue (Search Synaptic for "rescue")
 package_add ('scrounge-ntfs dares ddrescue gddrescue magicrescue myrescue')
 
+# Recover (Search Synaptic for "recover")
+package_add ('chntpw')
+package_add ('e2undel ext3grep ')
+package_add ('foremost ngorca ophcrack ophcrack-cli')
+package_add ('recover safecopy recoverjpeg vdmfec')
+package_add ('extundelete gzrt nasty par2 pdfcrack')
+package_add ('recoverdm rephrase scalpel')
+package_add ('dcfldd unhide dc3dd')
+package_add ('rdd rifiuti2')
+
+
+
 
 
 
