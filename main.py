@@ -29,10 +29,11 @@ else:
 
 print '=============================='
 print 'BEGIN ADDING FORENSIC PACKAGES'
+print 'NOTE: The screen output has been suppressed due to excessive volume'
 
 def package_add (name):
     os.system ('echo ADDING ' + name)
-    os.system ('apt-get install -y ' + name)
+    os.system ('apt-get install -qq ' + name)
 
 # Carried over from antiX Linux
 package_add ('partimage testdisk')
